@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity
         });
 
     }
-
+    // Método para tirar a foto
     private void TirarFoto()
     {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
