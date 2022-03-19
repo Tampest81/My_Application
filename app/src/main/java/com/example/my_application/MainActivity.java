@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
             }
             super.onActivityResult(requestCode, resultCode, data);
         }
-        
+
     public class GPStracker implements LocationListener
     {
         Context context;
