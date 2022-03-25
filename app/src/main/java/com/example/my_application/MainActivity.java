@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity
             if(requestCode == 1 && resultCode == RESULT_OK)
             {
                 Bundle extras = data.getExtras();
-                Bitmap imagem = (Bitmap) extras.get("data");
-                imageViewFoto.setImageBitmap(imagem);
+                Bitmap imagemA = (Bitmap) extras.get("data");
+                imageViewFoto.setImageBitmap(imagemA);
             }
             super.onActivityResult(requestCode, resultCode, data);
         }
